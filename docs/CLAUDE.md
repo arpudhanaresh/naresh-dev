@@ -30,7 +30,7 @@ A personal portfolio website showcasing the experience, projects, skills, and ce
 - **Standard Chartered Bank / Finforz** (Dec 2021–Aug 2023, 1 yr 9 mos): Associate Software Developer
 
 ### Education
-- **College of Engineering, Guindy**: M.E., Computer Science & Engineering (Aug 2023–Apr 2025)
+- **College of Engineering, Guindy**: M.E., Computer Science & Engineering (Aug 2023–Apr 2025) [Grade S]
 - **NIIT Institute**: Full Stack Web Developer & Java Developer (Jan 2021–May 2022) [Grade S]
 - **Panimalar Engineering College**: B.Tech, Information Technology (2016–2020) [Grade S]
 

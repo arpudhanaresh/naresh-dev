@@ -23,7 +23,7 @@ export default function Education() {
             
             <h3 className="text-2xl font-bold text-white mb-2 relative z-10">Master of Engineering</h3>
             <p className="text-accent text-lg font-medium mb-1 relative z-10">Computer Science & Engineering</p>
-            <p className="text-gray-400 mb-4 font-mono text-sm relative z-10">College of Engineering, Guindy • <span className="text-gray-300">Aug 2023 – Apr 2025</span></p>
+            <p className="text-gray-400 mb-4 font-mono text-sm relative z-10">College of Engineering, Guindy • <span className="text-gray-300">Aug 2023 – Apr 2025</span> • <span className="text-green-400 font-bold border border-green-500/20 px-2 py-0.5 rounded bg-green-500/10">Grade: S</span></p>
           </div>
 
           <div className="glass p-8 rounded-xl relative overflow-hidden">
