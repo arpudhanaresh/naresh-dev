@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "portfolio",
+  "compatibility_date": "2026-08-01",
+  // Static-assets-only Worker: no server-side code, Cloudflare serves ./dist directly.
+  "assets": {
+    "directory": "./dist",
+    // Serve index.html for unknown paths so client-side routes / deep links work.
+    // Real files in ./dist (e.g. /assets/*.js, /favicon.svg) still win and keep their MIME types.
+    "not_found_handling": "single-page-application"
+  },
+  // Production-only deployment: no workers.dev URL, no per-version preview URLs,
+  // so the site is not duplicated on a second public hostname.
+  "workers_dev": false,
+  "preview_urls": false,
+  // Cloudflare creates and manages the DNS record for this hostname itself.
+  "routes": [
+    {
+      "pattern": "portfolio.arpudhahost.in",
+      "custom_domain": true
+    }
+  ]
+}

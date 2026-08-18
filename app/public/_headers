@@ -1,0 +1,11 @@
+# Cloudflare static-asset cache policy.
+# Vite emits content-hashed filenames under /assets/, so those are safe to cache forever.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# index.html must always be revalidated, otherwise new deployments stay invisible.
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
