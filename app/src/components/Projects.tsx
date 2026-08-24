@@ -21,6 +21,14 @@ const projects = [
     links: { live: "#" }
   },
   {
+    title: "Centralized Regulatory System — India & Oman",
+    associated: "Finforz Technologies",
+    period: "Jul 2026 – Present",
+    description: "A multi-tenant compliance platform that keeps banks ahead of their regulators. Crawls daily circulars from CBO Oman and RBI/SEBI/IRDAI India, reads scanned bilingual PDFs via OCR and Claude to extract obligations and due dates, then drives a maker-checker approval workflow with escalation email.",
+    tags: ["FastAPI", "React 19", "Postgres + pgvector", "Claude AI", "OCR"],
+    links: { live: "#" }
+  },
+  {
     title: "Beach Tourism App (Blue Flag Beach)",
     associated: "Institute for Ocean Management, Anna Univ",
     period: "Freelance",
