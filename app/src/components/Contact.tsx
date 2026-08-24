@@ -67,7 +67,7 @@ export default function Contact() {
             </div>
 
             <div className="flex gap-4 pt-4">
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="h-12 w-12 rounded-full glass flex items-center justify-center text-gray-400 hover:text-white hover:border-white/30 transition-all">
+              <a href="https://github.com/arpudhanaresh" target="_blank" rel="noreferrer" className="h-12 w-12 rounded-full glass flex items-center justify-center text-gray-400 hover:text-white hover:border-white/30 transition-all">
                 <FaGithub size={20} />
               </a>
               <a href="https://www.linkedin.com/in/arpudhanaresh/" target="_blank" rel="noreferrer" className="h-12 w-12 rounded-full glass flex items-center justify-center text-gray-400 hover:text-accent hover:border-accent/30 transition-all">

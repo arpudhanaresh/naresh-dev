@@ -87,7 +87,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.8 }}
           className="flex gap-6 mt-12 pt-8 border-t border-white/5"
         >
-          <a href="https://github.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://github.com/arpudhanaresh" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
             <FaGithub size={24} />
           </a>
           <a href="https://www.linkedin.com/in/arpudhanaresh/" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-accent transition-colors">

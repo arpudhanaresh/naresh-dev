@@ -22,7 +22,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-4">
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-white transition-colors">
+            <a href="https://github.com/arpudhanaresh" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-white transition-colors">
               <FaGithub size={18} />
             </a>
             <a href="https://www.linkedin.com/in/arpudhanaresh/" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-accent transition-colors">
